@@ -9,7 +9,7 @@ function Footer() {
       <ul className="footer-ul">
         <li className="footer-li">
           <a href="" className="footer-anchor">
-            Terms and Privacy Notice
+            Terms and Privacy Policy
           </a>
         </li>
         <li className="footer-li">
