@@ -1,7 +1,7 @@
 const abc = [
   {
     id: 0,
-    Title: "Avatar",
+    Title: "Avataram",
     Year: "2009",
     rated: "PG-13",
     released: "18 Dec 2009",
