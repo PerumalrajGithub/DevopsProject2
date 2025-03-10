@@ -2,22 +2,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: pandacloud-app
+  name: perumal-app
   labels:
-    app: pandacloud-app
+    app: perumal-app
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: pandacloud-app
+      app: perumal-app
   template:
     metadata:
       labels:
-        app: pandacloud-app
+        app: perumal-app
     spec:
       containers:
-      - name: pandacloud-container
-        image: 309395755719.dkr.ecr.us-east-1.amazonaws.com/amazon-prime:latest
+      - name: perumal-container
+        image: 519852036875.dkr.ecr.us-east-2.amazonaws.com/amazon-prime:6
         ports:
         - containerPort: 3000
 ...
