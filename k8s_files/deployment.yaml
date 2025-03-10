@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: perumal-container
-        image: 519852036875.dkr.ecr.us-east-2.amazonaws.com/amazon-prime:6
+        image: 519852036875.dkr.ecr.us-east-2.amazonaws.com/amazon-prime:latest
         ports:
         - containerPort: 3000
 ...
